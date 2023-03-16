@@ -1,0 +1,26 @@
+.intro__text {
+    color: white;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    letter-spacing: 0em;
+    text-align: left;
+    display: block;
+    margin: 0;
+    max-width: 690px;
+    padding-top: 40px;
+}
+
+@media screen and (max-width: 1023px) and (min-width: 321px) {
+    .intro__text {
+        max-width: 720px;
+        padding-top: 36px;
+    }
+}
+
+@media screen and (max-width: 320px) {
+    .intro__list {
+        max-width: 288px;
+        padding-top: 40px;
+    }
+}
